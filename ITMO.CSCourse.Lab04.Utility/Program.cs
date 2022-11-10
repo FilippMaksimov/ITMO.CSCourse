@@ -73,7 +73,7 @@ namespace ITMO.CSCourse.Lab04.Utility
                     }
                 }
             }
-            catch (Exception)
+            catch (OverflowException)
             {
                 f = 0;
                 ok = false;
